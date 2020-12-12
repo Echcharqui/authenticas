@@ -1,0 +1,27 @@
+{
+  "name": "authenticas",
+  "version": "1.0.0",
+  "description": "this is an authentication service under the form of a rest api which use JWT system.",
+  "main": "server.js",
+  "repository": "https://github.com/Echcharqui/Auth_Service.git",
+  "author": "Echcharqui Hamza",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "npx nodemon ./src/app.js",
+    "eslint:fix": "npx eslint --fix ./src/*js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
