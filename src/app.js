@@ -7,7 +7,7 @@ const port = process.env.PORT
 const host = process.env.HOST
 
 app.get('/', (req, res) => {
-  res.json('everything is cool !')
+  res.json('everything is cool !!')
 })
 
 app.listen(port, `${host}`, () => {
